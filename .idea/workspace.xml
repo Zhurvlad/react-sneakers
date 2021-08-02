@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3391e7cc-ed73-4b3c-ac5c-59548db3660f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../1321/twitter-clone/.idea/twitter-clone.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1321/twitter-clone/backend/.idea/backend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1321/twitter-clone/frontend/.idea/frontend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1321/twitter-clone/frontend/src/services/.idea/services.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-pizza4/.idea/react-pizza4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/.idea/react-sneakers-State.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/btn-checked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/btn-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/btn-remove.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/complete-order.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/empty-cart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/heart-liked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/heart-unliked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/liked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/sneakers/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/sneakers/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/sneakers/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/sneakers/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/sneakers/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/sneakers/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/sneakers/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/sneakers/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/sneakers/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/sneakers/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/sneakers/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/sneakers/btn-checked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/sneakers/btn-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/sneakers/btn-remove.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/sneakers/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/sneakers/complete-order.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/sneakers/empty-cart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/sneakers/heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/sneakers/liked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/sneakers/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/sneakers/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/sneakers/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/sneakers/unliked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/sneakers/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/unliked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/img/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/src/components/Card/Card.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/src/components/Card/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/src/components/Drawer/Drawer.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/src/components/Drawer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/src/components/LoadingBlock.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/src/components/hooks/useCart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/src/components/info.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/src/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/src/pages/Favorites.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/src/pages/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/src/pages/Orders.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/src/pages/img/btn-remove.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Redux/actions/favorited.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Redux/reducers/favorited.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Favorites.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo/.idea/react-pizza.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../twitter-clone/Front/.idea/twitter-clone.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../twitter-clone/Front/frontend/.idea/frontend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../twitter-clone/Front/frontend/src/services/.idea/services.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vk-app/.idea/vk-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Card/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Card/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Drawer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Drawer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Redux/actions/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Redux/actions/card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Redux/actions/sneaker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Redux/actions/sneaker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Redux/reducers/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Redux/reducers/card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Redux/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/arrow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/btn-checked.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/btn-checked.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/btn-plus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/btn-plus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/btn-remove.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/btn-remove.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/cart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/cart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/complete-order.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/complete-order.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/empty-cart.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/empty-cart.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/heart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/heart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/liked.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/liked.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/plus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/plus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sneakers/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sneakers/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sneakers/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sneakers/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sneakers/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sneakers/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sneakers/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sneakers/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sneakers/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sneakers/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/unliked.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/unliked.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/user.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/user.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../twitter-clone/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../twitter-clone/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/Back/backend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/Front/frontend/src/Core/axios.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../twitter-clone/Front/frontend/src/Core/axios.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/Front/frontend/src/pages/User/ActivatePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../twitter-clone/Front/frontend/src/pages/User/ActivatePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/Front/frontend/src/services/api/authApi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../twitter-clone/Front/frontend/src/services/api/authApi.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/backend/controllers/TweetsController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../twitter-clone/backend/controllers/TweetsController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/backend/controllers/UploadFileController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../twitter-clone/backend/controllers/UploadFileController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/backend/controllers/UserControllers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../twitter-clone/backend/controllers/UserControllers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/backend/core/cloudinary.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../twitter-clone/backend/core/cloudinary.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/backend/core/mailer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../twitter-clone/backend/core/mailer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/backend/core/passport.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../twitter-clone/backend/core/passport.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/backend/models/TweetModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../twitter-clone/backend/models/TweetModel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/backend/models/UserModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../twitter-clone/backend/models/UserModel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../twitter-clone/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../twitter-clone/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/backend/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../twitter-clone/backend/server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/.idea/frontend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/public/db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/component/AddTweetForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/component/BackButton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/component/ModalBlock.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/component/SearchTextField.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/component/SideMenu.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/component/Tags.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/component/Tweet.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/pages/Home/component/FullTweet.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/pages/Home/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/pages/Home/theme.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/pages/SignIn.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/reportWebVitals.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/services/api/tagsApi.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/services/api/tweetsApi.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/store/ducks/tags/actionCreators.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/store/ducks/tags/reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/store/ducks/tags/sagas.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/store/ducks/tags/selector.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/store/ducks/tags/tweets/contracts/state.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/store/ducks/tweet/actionCreators.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/store/ducks/tweet/reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/store/ducks/tweet/sagas.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/store/ducks/tweet/selector.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/store/ducks/tweet/tweets/contracts/state.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/store/ducks/tweets/actionCreators.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/store/ducks/tweets/contracts/state.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/store/ducks/tweets/reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/store/ducks/tweets/sagas.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/store/ducks/tweets/selector.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/store/rootReducers.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/store/saga.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/store/store.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/theme.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/src/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/frontend/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twitter-clone/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../twitter-clone/package-lock.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1uaTOt9M4fWk2u2IawX7JhfsMmC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ReactPetsApp\ZhurVlad\react-sneakers\src\assets" />
+      <recent name="D:\ReactPetsApp\ZhurVlad\react-sneakers\public" />
+      <recent name="D:\ReactPetsApp\ZhurVlad\react-sneakers\src\Components\Card" />
+      <recent name="D:\ReactPetsApp\ZhurVlad\react-sneakers\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ZhurVlad\react-sneakers\src\pages" />
+      <recent name="D:\ReactPetsApp\ZhurVlad\react-sneakers\src\Components\Redux\actions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.server">
+    <configuration name="server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="server" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.server" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3391e7cc-ed73-4b3c-ac5c-59548db3660f" name="Default Changelist" comment="" />
+      <created>1624902670676</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624902670676</updated>
+      <workItem from="1624902680192" duration="6878000" />
+      <workItem from="1624991292581" duration="6623000" />
+      <workItem from="1625072410192" duration="6102000" />
+      <workItem from="1625158491652" duration="9088000" />
+      <workItem from="1625323124022" duration="2891000" />
+      <workItem from="1625327290618" duration="21000" />
+      <workItem from="1625327323426" duration="2548000" />
+      <workItem from="1625329958422" duration="5433000" />
+      <workItem from="1625336876779" duration="537000" />
+      <workItem from="1625337570391" duration="2722000" />
+      <workItem from="1625415062368" duration="13099000" />
+      <workItem from="1625511045687" duration="7302000" />
+      <workItem from="1625652575632" duration="10446000" />
+      <workItem from="1625676983011" duration="8000" />
+      <workItem from="1625746975128" duration="90000" />
+      <workItem from="1626718205367" duration="3209000" />
+      <workItem from="1627223118944" duration="1191000" />
+      <workItem from="1627319124633" duration="2818000" />
+      <workItem from="1627407880378" duration="6442000" />
+      <workItem from="1627755969167" duration="5024000" />
+      <workItem from="1627833948199" duration="11122000" />
+      <workItem from="1627920490680" duration="12308000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3868" y="434" key="#ESLint" timestamp="1625327202989">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3868" y="434" key="#ESLint/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1625327202989" />
+    <state x="3757" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1625326683104">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3757" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1625326683104" />
+    <state x="3684" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1624902827216">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3684" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1624902827216" />
+    <state x="3780" y="275" key="FileChooserDialogImpl" timestamp="1625747063508">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1627" y="370" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1625676988911" />
+    <state x="3780" y="275" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1625747063508" />
+    <state width="936" height="175" key="GridCell.Tab.0.bottom" timestamp="1627925345884">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1067" height="173" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1625676946699" />
+    <state width="936" height="175" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1627925345884" />
+    <state width="936" height="175" key="GridCell.Tab.0.center" timestamp="1627925345884">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1067" height="173" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1625676946698" />
+    <state width="936" height="175" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1627925345884" />
+    <state width="936" height="175" key="GridCell.Tab.0.left" timestamp="1627925345884">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1067" height="173" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1625676946698" />
+    <state width="936" height="175" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1627925345884" />
+    <state width="936" height="175" key="GridCell.Tab.0.right" timestamp="1627925345884">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1067" height="173" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1625676946699" />
+    <state width="936" height="175" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1627925345884" />
+    <state x="3707" y="258" width="585" height="530" key="find.popup" timestamp="1625167415307">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3707" y="258" width="585" height="530" key="find.popup/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1625167415307" />
+    <state x="3554" y="244" key="run.anything.popup" timestamp="1625424681486">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3554" y="244" key="run.anything.popup/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1625424681486" />
+  </component>
+</project>
