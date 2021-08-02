@@ -3,7 +3,7 @@ export const removeSneaker = (id) => ({
     payload: id
 })
 
-export const addSneakerToCart = (pizzaObj) => ({
+export const addSneakerToCart = (sneakersObj) => ({
     type: 'ADD_SNEAKER_TO_CART',
-    payload: pizzaObj
+    payload: sneakersObj
 })

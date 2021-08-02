@@ -1,5 +1,6 @@
 import produce from "immer";
 
+
 const initialState = {
     items: [],
     totalPrice: 0,
@@ -20,11 +21,14 @@ const cart = (state = initialState, action) => {
 
                     draft.totalPrice = getTotalPrice(draft.items)
                     const price = getTotalPrice(draft.items)
-                    draft.totalTax = Math.floor(price / 100 * 5)
+                    draft.totalTax = Math.floor(price * 0.2)
                     break;
 
                 case 'REMOVE_SNEAKER': {
-                    delete draft.items[action.payload]
+                    draft.items = draft.items.filter(item => item.id !== action.payload)
+                    draft.totalPrice = getTotalPrice(draft.items)
+                    const price = getTotalPrice(draft.items)
+                    draft.totalTax = Math.floor(price * 0.2)
                     break;
                 }
             }

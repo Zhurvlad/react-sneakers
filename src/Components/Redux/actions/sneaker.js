@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const fetchSneaker = () =>(dispatch) => {
     dispatch(setLoading(false))
-    axios.get('https://60e07aaa6b689e001788caa6.mockapi.io/items').then(({data}) => {
+    axios.get('/sneakers').then(({data}) => {
         dispatch(setSneakers(data))
     })
 }

@@ -4,17 +4,20 @@ import btnRemoveSVG from "../assets/img/btn-remove.svg";
 import arrowSVG from "../assets/img/arrow.svg";
 import emptySVG from '../assets/img/empty-cart.jpg'
 
-import {useDispatch, useSelector} from "react-redux";
-import {removeSneaker} from "./Redux/actions/card";
-import axios from "axios";
+import {useSelector} from "react-redux";
 
-export const Drawer = ({onClose, totalPrice, totalTax, handleRemoveItem}) => {
+
+export const Drawer = ({id, onClose, totalPrice, totalTax, handleRemoveItem}) => {
 
     const {items} = useSelector(({cart}) => cart)
 
     const addedSneaker = Object.keys(items).map(key => {
         return items[key]
     })
+
+    const onDeleteSneakers = (id) => {
+        handleRemoveItem(id)
+    }
 
 
 
@@ -27,20 +30,20 @@ export const Drawer = ({onClose, totalPrice, totalTax, handleRemoveItem}) => {
                 </h2>
 
                 {items.length > 0 ?
-                    <div>
+                    <div className={'d-flex flex-column flex'}>
                         <div className="items">
                             {addedSneaker && addedSneaker.map((obj, id) => (
 
                                 <div className={'cartItem d-flex align-center mb-20'} key={obj + id}>
                                     <div>
-                                        <img className={'cartItemImg'} src={obj.img}/>
+                                        <img className={'cartItemImg'} src={obj.img} alt={'sneakers'}/>
                                     </div>
 
                                     <div className={'mr-20 flex'}>
                                         <p className={'mb-5'}>{obj.name}</p>
                                         <b>{obj.price} руб.</b>
                                     </div>
-                                    <img onClick={() => handleRemoveItem(id)} className={'removeBtn'}
+                                    <img onClick={() => onDeleteSneakers(obj.id)} className={'removeBtn'}
                                          src={btnRemoveSVG}
                                          alt={'Delete'}/>
                                 </div>
@@ -55,7 +58,7 @@ export const Drawer = ({onClose, totalPrice, totalTax, handleRemoveItem}) => {
                                     <b>{totalPrice} руб. </b>
                                 </li>
                                 <li>
-                                    <span>Налог 5%:</span>
+                                    <span>С учётом НДС 20%:</span>
                                     <div></div>
                                     <b>{totalTax} руб. </b>
                                 </li>
