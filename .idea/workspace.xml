@@ -32,30 +32,6 @@
       <change afterPath="$PROJECT_DIR$/../react-sneakers-State/.idea/react-sneakers-State.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react-sneakers-State/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react-sneakers-State/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/btn-checked.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/btn-plus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/btn-remove.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/cart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/complete-order.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/empty-cart.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/heart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/liked.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/plus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/unliked.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/user.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react-sneakers-State/package-lock.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react-sneakers-State/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/favicon.ico" afterDir="false" />
@@ -120,13 +96,81 @@
       <change afterPath="$PROJECT_DIR$/../react-sneakers-State/src/pages/Orders.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react-sneakers-State/src/pages/img/btn-remove.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react-sneakers-State/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/Components/Card/Card.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/Components/Card/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/Components/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/Components/LoadingBlock.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/Components/Redux/actions/card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/Components/Redux/actions/sneaker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/Components/Redux/reducers/card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/Components/Redux/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/Components/Redux/reducers/sneaker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/Components/Redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/assets/img/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/assets/img/btn-checked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/assets/img/btn-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/assets/img/btn-remove.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/assets/img/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/assets/img/complete-order.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/assets/img/empty-cart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/assets/img/heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/assets/img/liked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/assets/img/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/assets/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/assets/img/sneakers/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/assets/img/sneakers/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/assets/img/sneakers/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/assets/img/sneakers/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/assets/img/sneakers/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/assets/img/sneakers/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/assets/img/sneakers/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/assets/img/sneakers/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/assets/img/sneakers/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/assets/img/sneakers/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/assets/img/unliked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers/src/assets/img/user.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../todo/.idea/react-pizza.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../twitter-clone/Front/.idea/twitter-clone.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../twitter-clone/Front/frontend/.idea/frontend.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../twitter-clone/Front/frontend/src/services/.idea/services.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../vk-app/.idea/vk-app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/img/arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/arrow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/img/btn-checked.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/btn-checked.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/img/btn-plus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/btn-plus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/img/btn-remove.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/btn-remove.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/img/cart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/cart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/img/complete-order.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/complete-order.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/img/empty-cart.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/empty-cart.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/img/heart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/heart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/img/liked.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/liked.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/img/plus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/plus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/img/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/img/sneakers/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/img/sneakers/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/img/sneakers/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/img/sneakers/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/img/sneakers/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/img/sneakers/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/img/sneakers/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/img/sneakers/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/img/sneakers/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/img/sneakers/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/img/unliked.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/unliked.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/img/user.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/user.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-sneakers/tsconfig.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../twitter-clone/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../twitter-clone/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../twitter-clone/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../twitter-clone/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
@@ -221,7 +265,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -247,7 +291,17 @@
       <recent name="D:\ReactPetsApp\ZhurVlad\react-sneakers\src\Components\Redux\actions" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.server">
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -270,8 +324,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.server" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.server" />
       </list>
     </recent_temporary>
   </component>
@@ -314,6 +369,7 @@
       <workItem from="1628611419251" duration="12668000" />
       <workItem from="1628687298054" duration="602000" />
       <workItem from="1628777615103" duration="3775000" />
+      <workItem from="1628786791969" duration="332000" />
     </task>
     <servers />
   </component>
@@ -350,26 +406,26 @@
     </state>
     <state x="1627" y="370" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1625676988911" />
     <state x="3780" y="275" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1625747063508" />
-    <state width="936" height="171" key="GridCell.Tab.0.bottom" timestamp="1628777656089">
-      <screen x="2560" y="0" width="1920" height="1040" />
+    <state width="1108" height="171" key="GridCell.Tab.0.bottom" timestamp="1628786969463">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1067" height="173" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1625676946699" />
-    <state width="936" height="171" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1628777656089" />
-    <state width="936" height="171" key="GridCell.Tab.0.center" timestamp="1628777656088">
-      <screen x="2560" y="0" width="1920" height="1040" />
+    <state width="1108" height="171" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1628786969463" />
+    <state width="1108" height="171" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1628786921333" />
+    <state width="1108" height="171" key="GridCell.Tab.0.center" timestamp="1628786969463">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1067" height="173" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1625676946698" />
-    <state width="936" height="171" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1628777656088" />
-    <state width="936" height="171" key="GridCell.Tab.0.left" timestamp="1628777656088">
-      <screen x="2560" y="0" width="1920" height="1040" />
+    <state width="1108" height="171" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1628786969463" />
+    <state width="1108" height="171" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1628786921333" />
+    <state width="1108" height="171" key="GridCell.Tab.0.left" timestamp="1628786969462">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1067" height="173" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1625676946698" />
-    <state width="936" height="171" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1628777656088" />
-    <state width="936" height="171" key="GridCell.Tab.0.right" timestamp="1628777656088">
-      <screen x="2560" y="0" width="1920" height="1040" />
+    <state width="1108" height="171" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1628786969462" />
+    <state width="1108" height="171" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1628786921333" />
+    <state width="1108" height="171" key="GridCell.Tab.0.right" timestamp="1628786969463">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1067" height="173" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1625676946699" />
-    <state width="936" height="171" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1628777656088" />
+    <state width="1108" height="171" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1628786969463" />
+    <state width="1108" height="171" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1628786921333" />
     <state x="3707" y="258" width="585" height="530" key="find.popup" timestamp="1625167415307">
       <screen x="2560" y="0" width="1920" height="1040" />
     </state>
