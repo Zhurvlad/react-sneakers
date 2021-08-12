@@ -16,6 +16,7 @@ const orders = (state = initialState, action) => {
                 case Constance.SNEAKERS_ORDER :
                    draft.items.push(action.payload);
                     break;
+                default:
             }
         }
     )

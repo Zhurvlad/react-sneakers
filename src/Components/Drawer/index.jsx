@@ -22,7 +22,7 @@ export const Drawer = ({onClose,
     const {items} = useSelector(({cart}) => cart)
     const {items : order} = useSelector(({orders}) => orders)
 
-    console.log(order.length)
+
 
     const addedSneaker = Object.keys(items).map(key => {
         return items[key]

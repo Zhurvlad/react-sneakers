@@ -32,6 +32,30 @@
       <change afterPath="$PROJECT_DIR$/../react-sneakers-State/.idea/react-sneakers-State.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react-sneakers-State/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react-sneakers-State/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/btn-checked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/btn-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/btn-remove.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/complete-order.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/empty-cart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/liked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/unliked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-sneakers-State/img/user.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react-sneakers-State/package-lock.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react-sneakers-State/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react-sneakers-State/public/favicon.ico" afterDir="false" />
@@ -96,12 +120,6 @@
       <change afterPath="$PROJECT_DIR$/../react-sneakers-State/src/pages/Orders.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react-sneakers-State/src/pages/img/btn-remove.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react-sneakers-State/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/CartEmpty.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Drawer/Drawer.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Info.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Redux/actions/orders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Redux/reducers/orders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Orders.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../todo/.idea/react-pizza.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../twitter-clone/Front/.idea/twitter-clone.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../twitter-clone/Front/frontend/.idea/frontend.iml" afterDir="false" />
@@ -109,44 +127,9 @@
       <change afterPath="$PROJECT_DIR$/../vk-app/.idea/vk-app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Card/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Card/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Drawer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Drawer/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LoadingBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LoadingBlock.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Redux/actions/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Redux/actions/card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Redux/actions/favorited.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Redux/actions/favorited.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Redux/actions/sneaker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Redux/actions/sneaker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Redux/reducers/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Redux/reducers/card.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Redux/reducers/favorited.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Redux/reducers/favorited.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Redux/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Redux/reducers/sneaker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Redux/reducers/sneaker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/arrow.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/btn-checked.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/btn-checked.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/btn-plus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/btn-plus.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/btn-remove.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/btn-remove.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/cart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/cart.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/complete-order.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/complete-order.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/empty-cart.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/empty-cart.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/heart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/heart.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/liked.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/liked.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/plus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/plus.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/search.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/sneakers/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/sneakers/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/sneakers/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/sneakers/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/sneakers/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/sneakers/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/sneakers/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/sneakers/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/sneakers/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/sneakers/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/unliked.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/unliked.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/user.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/user.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Favorites.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Favorites.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Redux/reducers/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Redux/reducers/orders.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../twitter-clone/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../twitter-clone/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../twitter-clone/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../twitter-clone/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
@@ -333,7 +316,7 @@
       <workItem from="1628537918684" duration="2737000" />
       <workItem from="1628611419251" duration="12668000" />
       <workItem from="1628687298054" duration="602000" />
-      <workItem from="1628777615103" duration="1441000" />
+      <workItem from="1628777615103" duration="2550000" />
     </task>
     <servers />
   </component>

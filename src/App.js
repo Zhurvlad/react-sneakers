@@ -20,8 +20,6 @@ import {addSneakersOrder} from "./Components/Redux/actions/orders";
 import {Orders} from "./pages/Orders";
 
 
-const AppContext = React.createContext({})
-
 function App() {
     const dispatch = useDispatch()
 
@@ -32,7 +30,7 @@ function App() {
     const favorite = useSelector(({favorite}) => favorite.items)
     const orders = useSelector(({orders}) => orders.items)
 
-    console.log(orders)
+
 
     const sneakerAddCart = (obj) => {
         if (items.find(item => item.id === obj.id)) {
@@ -45,7 +43,7 @@ function App() {
 
     React.useEffect(() => {
         dispatch(fetchSneaker())
-    }, [])
+    }, [dispatch])
 
 
     const sneakerToFavorite = (obj) => {

@@ -15,14 +15,15 @@ const getTotalPrice = arr => arr.reduce((sum, obj) => obj.price + sum, 0)
 
 const cart = (state = initialState, action) => {
     return produce(state, draft => {
+        // eslint-disable-next-line default-case
             switch (action.type) {
-                case Constance.ADD_SNEAKER_TO_CART :
+                case Constance.ADD_SNEAKER_TO_CART : {
 
                     draft.items.push(action.payload);
                     draft.totalPrice = getTotalPrice(draft.items)
                     const price = getTotalPrice(draft.items)
                     draft.totalTax = Math.floor(price * 0.2)
-
+                }
                     break;
 
 

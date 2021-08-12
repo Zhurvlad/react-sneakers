@@ -6,7 +6,7 @@ import CartEmpty from "../Components/CartEmpty";
 
 export const Favorites = ({favorite, sneakerToFavorite, sneakerAddCart, cartItems}) => {
 
-    console.log(favorite)
+
     return (
         <div className={'content p-40'}>
             {favorite.length ? <>

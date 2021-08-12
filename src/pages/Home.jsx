@@ -12,7 +12,7 @@ export const Home = ({item, isLoading, sneakerToFavorite, sneakerAddCart, cartIt
         setSearchValue(e.target.value)
     }
 
-//Исправить кривую верстку
+
 
     return (
         <div className={'content p-40'}>

@@ -1,6 +1,7 @@
 import produce from "immer";
 import {Constance} from "../actions/favorited";
 
+
 const initialState = {
     items: [],
 
@@ -18,10 +19,10 @@ const favorite = (state = initialState, action) => {
 
                     break;
 
-                case Constance.REMOVE_FAVORITE: {
+                case Constance.REMOVE_FAVORITE:
                     draft.items = draft.items.filter(item => item.id !== action.payload)
                     break;
-                }
+                default:
             }
         }
     )

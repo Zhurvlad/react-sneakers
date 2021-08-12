@@ -10,16 +10,10 @@ export const Orders = ({orders}) => {
         return orders[key]
     })*/
 
-    const addedPizza = Object.keys(orders).map((key, id) => {
-        return orders[key]
-    })
-
-    console.log(addedPizza, 2)
-
 
     const onOrdersSneaker = [].concat.apply([], orders)
 
-    console.log(onOrdersSneaker, 1)
+
 
     return (
         <div className={'content p-40'}>
