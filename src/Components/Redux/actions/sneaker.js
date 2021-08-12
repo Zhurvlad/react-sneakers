@@ -1,5 +1,10 @@
 import axios from "axios";
 
+export const Constance = {
+    SET_SNEAKERS: 'SET_SNEAKERS',
+    SET_LOADING:'SET_LOADING',
+}
+
 export const fetchSneaker = () =>(dispatch) => {
     dispatch(setLoading(false))
     axios.get('/sneakers').then(({data}) => {
@@ -10,10 +15,10 @@ export const fetchSneaker = () =>(dispatch) => {
 
 
 export const setSneakers = (Obj) => ({
-    type: 'SET_SNEAKERS',
+    type: Constance.SET_SNEAKERS,
     payload: Obj
 })
 export const setLoading = (payload) => ({
-    type: 'SET_LOADING',
+    type: Constance.SET_LOADING,
     payload
 })

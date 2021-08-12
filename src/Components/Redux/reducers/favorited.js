@@ -1,4 +1,5 @@
 import produce from "immer";
+import {Constance} from "../actions/favorited";
 
 const initialState = {
     items: [],
@@ -11,13 +12,13 @@ const initialState = {
 const favorite = (state = initialState, action) => {
     return produce(state, draft => {
             switch (action.type) {
-                case 'ADD_SNEAKER_TO_FAVORITE' :
+                case Constance.ADD_SNEAKER_TO_FAVORITE :
 
                     draft.items.push(action.payload);
 
                     break;
 
-                case 'REMOVE_FAVORITE': {
+                case Constance.REMOVE_FAVORITE: {
                     draft.items = draft.items.filter(item => item.id !== action.payload)
                     break;
                 }

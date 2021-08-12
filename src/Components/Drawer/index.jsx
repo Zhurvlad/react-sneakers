@@ -1,15 +1,28 @@
 import React from 'react';
 
-import btnRemoveSVG from "../assets/img/btn-remove.svg";
-import arrowSVG from "../assets/img/arrow.svg";
-import emptySVG from '../assets/img/empty-cart.jpg'
+import btnRemoveSVG from "../../assets/img/btn-remove.svg";
+import arrowSVG from "../../assets/img/arrow.svg";
+
 
 import {useSelector} from "react-redux";
+import {Info} from "../Info";
+
+import style from './Drawer.module.scss'
 
 
-export const Drawer = ({id, onClose, totalPrice, totalTax, handleRemoveItem}) => {
+export const Drawer = ({onClose,
+                           totalPrice,
+                           totalTax,
+                           handleRemoveItem,
+                           onOrderSneaker,
+                           opened}) => {
+
+    const [visibleOrder, setVisibleOrder] = React.useState(true)
 
     const {items} = useSelector(({cart}) => cart)
+    const {items : order} = useSelector(({orders}) => orders)
+
+    console.log(order.length)
 
     const addedSneaker = Object.keys(items).map(key => {
         return items[key]
@@ -19,19 +32,23 @@ export const Drawer = ({id, onClose, totalPrice, totalTax, handleRemoveItem}) =>
         handleRemoveItem(id)
     }
 
+    const onHandleOrderSneaker = () => {
+        onOrderSneaker(items)
+        setVisibleOrder(false)
+    }
 
 
 
     return (
-        <div className={'overlay'}>
-            <div className={'drawer'}>
+        <div className={`${style.overlay} ${opened ? style.overlayVisible : ''}`}>
+            <div className={style.drawer}>
                 <h2 className={'d-flex justify-between mb-30'}>Корзина
                     <img onClick={onClose} className={'cu-p'} src={btnRemoveSVG} alt={'Delete'}/>
                 </h2>
 
                 {items.length > 0 ?
                     <div className={'d-flex flex-column flex'}>
-                        <div className="items">
+                        <div className="items flex">
                             {addedSneaker && addedSneaker.map((obj, id) => (
 
                                 <div className={'cartItem d-flex align-center mb-20'} key={obj + id}>
@@ -63,20 +80,17 @@ export const Drawer = ({id, onClose, totalPrice, totalTax, handleRemoveItem}) =>
                                     <b>{totalTax} руб. </b>
                                 </li>
                             </ul>
-                            <button className="greenButton">
+                            <button onClick={onHandleOrderSneaker} className="greenButton">
                                 Оформить заказ <img src={arrowSVG} alt="Arrow"/>
                             </button>
                         </div>
                     </div>
-                    : <div className="cartEmpty d-flex align-center justify-center flex-column flex">
-                        <img className="mb-20" width="120px" height="120px" src={emptySVG} alt="Empty"/>
-                        <h2>Корзина пустая</h2>
-                        <p className="opacity-6">Добавьте хотя бы одну пару кроссовок, чтобы сделать заказ.</p>
-                        <button onClick={onClose} className="greenButton">
-                            <img src={arrowSVG} alt="Arrow"/>
-                            Вернуться назад
-                        </button>
-                    </div>
+                    :
+                    <Info visibleOrder={visibleOrder}
+                          title={visibleOrder ? 'Корзина пустая' : 'Заказ оформлен!'}
+                          description={visibleOrder
+                              ? 'Добавьте хотя бы одну пару кроссовок, чтобы сделать заказ.'
+                              : `Ваш заказ №${order.length}  скоро будет передан курьерской доставке`} onClose={onClose} />
                 }
             </div>
         </div>

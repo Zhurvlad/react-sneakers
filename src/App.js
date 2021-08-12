@@ -10,12 +10,14 @@ import {Drawer} from "./Components/Drawer";
 import {fetchSneaker} from "./Components/Redux/actions/sneaker";
 
 
-import {addSneakerToCart, removeSneaker} from "./Components/Redux/actions/card";
+import {addSneakerToCart, clearCart, removeSneaker} from "./Components/Redux/actions/card";
 
 
 import {addSneakerToFavorite, removeFavoriteSneaker} from "./Components/Redux/actions/favorited";
 import {Home} from "./pages/Home";
 import {Favorites} from "./pages/Favorites";
+import {addSneakersOrder} from "./Components/Redux/actions/orders";
+import {Orders} from "./pages/Orders";
 
 
 const AppContext = React.createContext({})
@@ -28,13 +30,14 @@ function App() {
     const isLoading = useSelector(({sneaker}) => sneaker.isLoaded)
     const {totalPrice, totalTax, items} = useSelector(({cart}) => cart)
     const favorite = useSelector(({favorite}) => favorite.items)
+    const orders = useSelector(({orders}) => orders.items)
 
-
+    console.log(orders)
 
     const sneakerAddCart = (obj) => {
-        if(items.find(item => item.id === obj.id)){
+        if (items.find(item => item.id === obj.id)) {
             dispatch(removeSneaker(obj.id))
-        }else {
+        } else {
             dispatch(addSneakerToCart(obj))
         }
     }
@@ -45,18 +48,14 @@ function App() {
     }, [])
 
 
-
     const sneakerToFavorite = (obj) => {
-        if(favorite.find(item => item.id === obj.id)){
+        if (favorite.find(item => item.id === obj.id)) {
             dispatch(removeFavoriteSneaker(obj.id))
         } else {
             dispatch(addSneakerToFavorite(obj))
         }
 
     }
-
-
-
 
 
     const handleRemoveItem = (id) => {
@@ -66,13 +65,30 @@ function App() {
     }
 
 
+    const onOrderSneaker = (orderObj) => {
+        dispatch(addSneakersOrder(orderObj))
+        dispatch(clearCart())
+    }
+
 
     return (
         <div className="wrapper clear">
-            {visibleCard && <Drawer {...items} handleRemoveItem={handleRemoveItem}  totalTax={totalTax} totalPrice = {totalPrice}  onClose={() =>setVisibleCard(false)} />}
+            <Drawer {...items}
+                    handleRemoveItem={handleRemoveItem}
+                    totalTax={totalTax}
+                    totalPrice={totalPrice}
+                    onClose={() => setVisibleCard(false)}
+                    onOrderSneaker={onOrderSneaker}
+                    opened={visibleCard}
+            />
 
 
-                <Header totalPrice = {totalPrice} onOpen={() =>setVisibleCard(true)}/>
+            <Header
+                favoriteCount={favorite && favorite.length}
+                cartCount={items && items.length}
+                totalPrice={totalPrice}
+                onOpen={() => setVisibleCard(true)}/>
+
 
             <Route path={'/'} exact>
                 <Home
@@ -86,7 +102,16 @@ function App() {
             </Route>
             <Route path={'/favorites'} exact>
                 <Favorites favorite={favorite}
+                           cartItems={items}
+                           sneakerAddCart={sneakerAddCart}
                            sneakerToFavorite={sneakerToFavorite}
+
+                />
+            </Route>
+            <Route path={'/orders'} exact>
+                <Orders
+                    orders={orders}
+                        sneakerToFavorite={sneakerToFavorite}
 
                 />
             </Route>

@@ -10,7 +10,7 @@ import style from './Card.module.scss'
 
 
 
-export const Card= ({price, name, img, id, sneakerToCart, sneakerToFavorite, favorited, cartAdded}) => {
+export const Card= ({price, name, img, id, sneakerToCart, sneakerToFavorite, favorited, cartAdded, fav, add}) => {
     const [checked, setChecked] = React.useState(cartAdded)
     const [favorite, setFavorite] = React.useState(favorited)
 
@@ -41,9 +41,9 @@ export const Card= ({price, name, img, id, sneakerToCart, sneakerToFavorite, fav
 
     return (
         <div className={style.card}>
-            <div  onClick={onFavorite} className={style.favorite}>
-                <img src={favorited ? likeSVG : unlikeSVG} alt="Unlike" />
-            </div>
+            {sneakerToFavorite && <div onClick={onFavorite} className={style.favorite}>
+                <img src={favorited ? likeSVG : unlikeSVG} alt="Unlike"/>
+            </div>}
             <img width={133} height={112} src={img} alt="Sneakers" />
             <h5>{name}</h5>
             <div className="d-flex justify-between align-center">
@@ -51,9 +51,9 @@ export const Card= ({price, name, img, id, sneakerToCart, sneakerToFavorite, fav
                     <span>Цена:</span>
                     <b>{price} руб.</b>
                 </div>
-                <div onClick={onSetAddSneaker}>
-                    <img  onClick={onChecked} className={style.plus} src={cartAdded ? checkedSVG  : plusSVG} alt="Plus"/>
-                </div>
+                {sneakerToCart && <div onClick={onSetAddSneaker}>
+                    <img onClick={onChecked} className={style.plus} src={cartAdded ? checkedSVG : plusSVG} alt="Plus"/>
+                </div>}
                  </div>
         </div>
     );

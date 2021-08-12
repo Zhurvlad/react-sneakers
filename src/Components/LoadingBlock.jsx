@@ -1,10 +1,12 @@
 import ContentLoader from "react-content-loader";
 import React from "react";
+import style from "./Card/Card.module.scss";
 
 
 export const LoadingBlock = () => {
     return (
         <ContentLoader
+            className={style.card}
             speed={2}
             width={155}
             height={250}

@@ -34,7 +34,7 @@ export const Home = ({item, isLoading, sneakerToFavorite, sneakerAddCart, cartIt
                         favorited = {favorite.some(favObj => favObj.id === obj.id)}
                         {...obj}
                         key={obj+index} />
-                ): Array(9).fill(0).map((_, id) => <LoadingBlock  key={_+id}/>)}
+                ): Array(12).fill(0).map((_, id) => <LoadingBlock  key={_+id}/>)}
             </div>
         </div>
     );

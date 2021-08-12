@@ -96,26 +96,30 @@
       <change afterPath="$PROJECT_DIR$/../react-sneakers-State/src/pages/Orders.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react-sneakers-State/src/pages/img/btn-remove.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react-sneakers-State/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Redux/actions/favorited.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Redux/reducers/favorited.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Favorites.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/CartEmpty.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Drawer/Drawer.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Info.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Redux/actions/orders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Redux/reducers/orders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Orders.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../todo/.idea/react-pizza.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../twitter-clone/Front/.idea/twitter-clone.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../twitter-clone/Front/frontend/.idea/frontend.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../twitter-clone/Front/frontend/src/services/.idea/services.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../vk-app/.idea/vk-app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Card/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Card/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Drawer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Drawer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Drawer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Drawer/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/LoadingBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LoadingBlock.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Redux/actions/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Redux/actions/card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Redux/actions/favorited.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Redux/actions/favorited.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Redux/actions/sneaker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Redux/actions/sneaker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Redux/reducers/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Redux/reducers/card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Redux/reducers/favorited.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Redux/reducers/favorited.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Redux/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Redux/reducers/sneaker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Redux/reducers/sneaker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/img/arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/arrow.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/img/btn-checked.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/btn-checked.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/img/btn-plus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/btn-plus.svg" afterDir="false" />
@@ -140,8 +144,9 @@
       <change beforePath="$PROJECT_DIR$/src/img/sneakers/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/sneakers/9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/img/unliked.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/unliked.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/img/user.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-sneakers-State/img/user.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Favorites.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Favorites.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../twitter-clone/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../twitter-clone/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../twitter-clone/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../twitter-clone/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
@@ -235,7 +240,6 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -252,10 +256,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ZhurVlad\react-sneakers\src\Components" />
+      <recent name="D:\ZhurVlad\react-sneakers\src\Components\Drawer" />
       <recent name="D:\ReactPetsApp\ZhurVlad\react-sneakers\src\assets" />
       <recent name="D:\ReactPetsApp\ZhurVlad\react-sneakers\public" />
       <recent name="D:\ReactPetsApp\ZhurVlad\react-sneakers\src\Components\Card" />
-      <recent name="D:\ReactPetsApp\ZhurVlad\react-sneakers\src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ZhurVlad\react-sneakers\src\pages" />
@@ -321,7 +326,14 @@
       <workItem from="1627407880378" duration="6442000" />
       <workItem from="1627755969167" duration="5024000" />
       <workItem from="1627833948199" duration="11122000" />
-      <workItem from="1627920490680" duration="12308000" />
+      <workItem from="1627920490680" duration="12920000" />
+      <workItem from="1628011583285" duration="5853000" />
+      <workItem from="1628098876614" duration="5625000" />
+      <workItem from="1628510872979" duration="6968000" />
+      <workItem from="1628537918684" duration="2737000" />
+      <workItem from="1628611419251" duration="12668000" />
+      <workItem from="1628687298054" duration="602000" />
+      <workItem from="1628777615103" duration="1441000" />
     </task>
     <servers />
   </component>
@@ -358,33 +370,33 @@
     </state>
     <state x="1627" y="370" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1625676988911" />
     <state x="3780" y="275" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1625747063508" />
-    <state width="936" height="175" key="GridCell.Tab.0.bottom" timestamp="1627925345884">
+    <state width="936" height="171" key="GridCell.Tab.0.bottom" timestamp="1628777656089">
       <screen x="2560" y="0" width="1920" height="1040" />
     </state>
     <state width="1067" height="173" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1625676946699" />
-    <state width="936" height="175" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1627925345884" />
-    <state width="936" height="175" key="GridCell.Tab.0.center" timestamp="1627925345884">
+    <state width="936" height="171" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1628777656089" />
+    <state width="936" height="171" key="GridCell.Tab.0.center" timestamp="1628777656088">
       <screen x="2560" y="0" width="1920" height="1040" />
     </state>
     <state width="1067" height="173" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1625676946698" />
-    <state width="936" height="175" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1627925345884" />
-    <state width="936" height="175" key="GridCell.Tab.0.left" timestamp="1627925345884">
+    <state width="936" height="171" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1628777656088" />
+    <state width="936" height="171" key="GridCell.Tab.0.left" timestamp="1628777656088">
       <screen x="2560" y="0" width="1920" height="1040" />
     </state>
     <state width="1067" height="173" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1625676946698" />
-    <state width="936" height="175" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1627925345884" />
-    <state width="936" height="175" key="GridCell.Tab.0.right" timestamp="1627925345884">
+    <state width="936" height="171" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1628777656088" />
+    <state width="936" height="171" key="GridCell.Tab.0.right" timestamp="1628777656088">
       <screen x="2560" y="0" width="1920" height="1040" />
     </state>
     <state width="1067" height="173" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1625676946699" />
-    <state width="936" height="175" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1627925345884" />
+    <state width="936" height="171" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1628777656088" />
     <state x="3707" y="258" width="585" height="530" key="find.popup" timestamp="1625167415307">
       <screen x="2560" y="0" width="1920" height="1040" />
     </state>
     <state x="3707" y="258" width="585" height="530" key="find.popup/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1625167415307" />
-    <state x="3554" y="244" key="run.anything.popup" timestamp="1625424681486">
+    <state x="3554" y="244" key="run.anything.popup" timestamp="1628778136910">
       <screen x="2560" y="0" width="1920" height="1040" />
     </state>
-    <state x="3554" y="244" key="run.anything.popup/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1625424681486" />
+    <state x="3554" y="244" key="run.anything.popup/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1628778136910" />
   </component>
 </project>

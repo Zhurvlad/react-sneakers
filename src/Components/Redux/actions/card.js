@@ -1,9 +1,22 @@
+export const Constance = {
+    REMOVE_SNEAKERS: 'REMOVE_SNEAKER',
+    ADD_SNEAKER_TO_CART:'ADD_SNEAKER_TO_CART',
+    CLEAR_CART: 'CLEAR_CART',
+}
+
+
+
 export const removeSneaker = (id) => ({
-    type: 'REMOVE_SNEAKER',
+    type:  Constance.REMOVE_SNEAKERS,
     payload: id
 })
 
 export const addSneakerToCart = (sneakersObj) => ({
-    type: 'ADD_SNEAKER_TO_CART',
+    type: Constance.ADD_SNEAKER_TO_CART,
     payload: sneakersObj
+})
+
+export const clearCart = (payload) => ({
+    type: Constance.CLEAR_CART,
+    payload
 })

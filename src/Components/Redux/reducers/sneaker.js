@@ -1,4 +1,5 @@
 import produce from "immer";
+import {Constance} from "../actions/sneaker";
 
 const initialState = {
     items: [],
@@ -8,11 +9,11 @@ const initialState = {
 const sneaker = (state = initialState, action) => {
     return produce(state, draft => {
         switch (action.type) {
-            case 'SET_SNEAKERS':
+            case Constance.SET_SNEAKERS:
                 draft.items = action.payload;
                 draft.isLoaded = true
                 break;
-            case 'SET_LOADING':
+            case Constance.SET_LOADING:
                 draft.isLoaded = action.payload
                 break;
             default:

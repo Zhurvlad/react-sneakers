@@ -7,7 +7,7 @@ import {Link} from "react-router-dom";
 
 
 
-export const Header = ({onOpen, totalPrice}) => {
+export const Header = ({onOpen, totalPrice, cartCount, favoriteCount}) => {
 
 
     return (
@@ -27,19 +27,21 @@ export const Header = ({onOpen, totalPrice}) => {
             </Link>
 
             <ul className={'d-flex'}>
-                <li onClick={onOpen} className={'mr-30 cu-p'}>
+                <li onClick={onOpen} className={'count mr-30 cu-p'}>
                     <img  src={cartSVG} alt={'cart'}/>
                     <span className={'ml-15'}>{totalPrice} руб.</span>
+                    <i className={cartCount > 0 ? 'count--circle' : ''}>{cartCount > 0 ? cartCount : ''}</i>
                 </li>
                 <Link to={'/favorites'}>
-                    <li  className={'mr-30 cu-p'}>
+                    <li  className={'count mr-30 cu-p'}>
                         <img  src={heartSVG} alt={'heart'} />
+                         <i className={favoriteCount > 0 ? 'count--circle' : ''}>{favoriteCount > 0 ? favoriteCount : ''}</i>
                     </li>
                 </Link>
-                <Link to={'/user'}>
-                    <li>
+                <Link to={'/orders'}>
+                    <li >
                         <img src={userSVG} alt={'user'}/>
-                    </li>
+                         </li>
                 </Link>
             </ul>
         </header>
