@@ -120,16 +120,13 @@
       <change afterPath="$PROJECT_DIR$/../react-sneakers-State/src/pages/Orders.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react-sneakers-State/src/pages/img/btn-remove.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react-sneakers-State/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../todo/.idea/react-pizza.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../twitter-clone/Front/.idea/twitter-clone.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../twitter-clone/Front/frontend/.idea/frontend.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../twitter-clone/Front/frontend/src/services/.idea/services.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../vk-app/.idea/vk-app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Redux/reducers/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Redux/reducers/card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Redux/reducers/favorited.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Redux/reducers/favorited.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Redux/reducers/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Redux/reducers/orders.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../twitter-clone/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../twitter-clone/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../twitter-clone/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../twitter-clone/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
@@ -316,7 +313,7 @@
       <workItem from="1628537918684" duration="2737000" />
       <workItem from="1628611419251" duration="12668000" />
       <workItem from="1628687298054" duration="602000" />
-      <workItem from="1628777615103" duration="2550000" />
+      <workItem from="1628777615103" duration="3775000" />
     </task>
     <servers />
   </component>
